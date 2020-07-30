@@ -12,7 +12,7 @@ use Symfony\Component\Serializer\Annotation\Groups;
 /**
  * @ApiResource(
  *  normalizationContext={"groups"={"film:read"}},
- *  denormalizationContext={"groups"={"film:write"}}
+ *  denormalizationContext={"groups"={"film:write"}},
  * )
  * @ORM\Entity(repositoryClass=FilmRepository::class)
  */
